@@ -1,11 +1,6 @@
 #Write a Python calculator that can perform: addition, subtraction, division, multiplication and modulus operations. It should accept user input
-#defining Arithemetic Functions
 #Written by Chigozie Emeribe
-
-from ast import While
-from sys import modules
-from typing import no_type_check
-
+#defining Arithemetic Functions
 
 def addition(no_1, no_2):
     return(no_1 + no_2)
@@ -59,9 +54,9 @@ while True:
                  print(no_1, "%", no_2, "=", modulus(no_1, no_2))
 
         # Ask user if they want to do another calculation
-             another_calculation = input("do you want to do another calculation? = Yes or No:  ")
-             if another_calculation =="No":
-               print("Chigozie says Thank you")
+             another_calculation = input("do you want to do another calculation? = yes or no: ")
+             if another_calculation =="no":
+               print("Chigozie says Thank you!!")
                break
 
         else:
