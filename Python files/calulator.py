@@ -1,4 +1,4 @@
-#Write a Python calculator that can perform: addition, subtraction, division, multiplication and modulus operations. It should accept user input
+#A Python calculator that can perform: addition, subtraction, division, multiplication and modulus operations.
 #Written by Chigozie Emeribe
 #defining Arithemetic Functions
 
